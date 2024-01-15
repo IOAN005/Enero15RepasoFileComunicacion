@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-public class ObjetoBasico {
+public class EscribirObjectoBasico {
     public static void main(String[] args) {
         Pedido p1=new Pedido(1,"juan lopez",1000.00,"contra reembolso");
         Pedido p2=new Pedido(2,"ana flores",500.00,"mensajeria");
